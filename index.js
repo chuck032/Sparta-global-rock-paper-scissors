@@ -10,6 +10,7 @@ function playGame(score) {
     var result = compareChoice(user, computer);
     updateScores(result, 1);
   }while(userScore < 3 && computerScore < 3);
+
   if(userScore > computerScore) {
     alert("The user has won 3 out of 5 points. So the user wins!");
   }
@@ -49,16 +50,15 @@ function compChoice() {
 
 //Function to compare choices
 function compareChoice(choice1, choice2) {
-  alert("user chose: " + choice1 + " and the computer chose: " + choice2 + "!");
   if(choice1 === choice2) {
-    alert("You and the computer chosen the same thing! Go again, no score added!");
+    alert("user chose: " + choice1 + " and the computer chose: " + choice2 + "! \nYou and the computer chose the same thing! Go again, no score added!");
     return 0;
   }
   if((choice1 === "rock" && choice2 === "scissors") || (choice1 === "paper" && choice2 === "rock") || (choice1 === "scissors" && choice2 === "paper")) {
-    alert("user wins the round!");
+    alert("user chose: " + choice1 + " and the computer chose: " + choice2 + "! \nuser wins the round!");
     return 1;
   } else {
-    alert("Computer wins the round!");
+    alert("user chose: " + choice1 + " and the computer chose: " + choice2 + "! \nComputer wins the round!");
     return 2;
   }
 }
