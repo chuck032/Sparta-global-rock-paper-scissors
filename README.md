@@ -1,21 +1,27 @@
 # Sparta-global-rock-paper-scissors
 
-Rock, Paper, Scissors - Homework
 
-Your homework is to create the game Rock Paper Scissors game against the computer in the browser using alerts and prompts.
+Instructions for use:
 
-Rules of the Game
+* To use this project git clone the repository to your computer.
+* Enter the project and open the html file. To view the code you can open the html file in a text editor.
+
+# Rock, Paper, Scissors
+
+For this project we were required to create the game Rock Paper Scissors against the computer in the browser using alerts and prompts.
+
+### Rules of the Game
 
 There are a few basic rules to the game:-
 
-Rock beats Scissors
-Paper beats Rock
+Rock beats Scissors </br>
+Paper beats Rock </br>
 Scissors beats Paper
 
-You will need to:-
+Requirements:
 
-Get the player input through the browser
-Create a random move for the computer
-You should play the best of five rounds between the player and the computer
-You will need to check for a winner after each round
-You should display the score after each round
+* Player input through the browser.
+* Create a random move for the computer.
+* Play the best of five rounds between the player and the computer.
+* Check for a winner after each round.
+* Display the score after each round.
